@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script> src = "alchemy.js"></script>
+</head>
+<body onload = "initialize();">
+    <h1>
+        <span>Alchemy</span>
+    </h1>
+    <div class = "box">
+        <h2>My Organisms</h2>
+        <div id = "orgs"></div>
+        <hr />
+        <form id = "orgsform">
+            <input type = "number" name = "orgsel" />
+        </form>
+
+        <button onclick = "selectOrganisms();">Select Organism</button>
+        <button onclick = "deleteOrganisms();">Delete Organisms</button>
+    </div>
+
+    <hr />
+
+    <p>
+        <span id = "1st"></span> AND <span id = "2nd"></span>
+    </p>
+    
+</body>
+</html>
